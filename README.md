@@ -1,6 +1,22 @@
 ## Задания LVL1 для прохождения стажировки в WB
 - [x] 1
 - [X] 2 
+- [X] 3
+- [X] 4
+- [X] 5
+- [X] 6
+- [Х] 7
+- [X] 8
+- [X] 9
+- [X] 10
+- [X] 11
+- [X] 12
+- [X] 13
+- [X] 14
+- [X] 15
+- [X] 16
+- [X] 17
+- [X] 18
 
 # Источники
 - 1: 
@@ -9,4 +25,50 @@
 - 2:
   - https://medium.com/golangspec/range-over-channels-in-go-3d45dd825d2a
   - https://gobyexample.com/waitgroups
-
+- 3:
+  - https://stackoverflow.com/questions/43143632/how-to-separate-array-processing-into-goroutines
+- 4:
+  - https://callistaenterprise.se/blogg/teknik/2019/10/05/go-worker-cancellation/
+- 5:
+  - https://dev.to/julianchu/go-for-select-with-timer-1ah8
+- 6:
+  - https://stackoverflow.com/questions/6807590/how-to-stop-a-goroutine
+- 7:
+  - https://habr.com/en/post/338718/
+- 8:
+  - https://stackoverflow.com/questions/6916974/change-a-bit-of-an-integer
+  - https://stackoverflow.com/questions/23192262/how-would-you-set-and-clear-a-single-bit-in-go
+- 10:
+  - https://www.digitalocean.com/community/tutorials/how-to-do-math-in-go-with-operators
+  - https://stackoverflow.com/questions/54124439/map-initialization-in-go
+  - https://stackoverflow.com/questions/18208394/how-to-test-the-equivalence-of-maps-in-golang
+- 11:
+  - https://stackoverflow.com/questions/44956031/how-to-get-intersection-of-two-slice-in-golang
+  - https://stackoverflow.com/questions/29677670/what-is-the-big-o-performance-of-maps-in-golang
+  - https://pkg.go.dev/sort#Search
+- 12:
+  - https://stackoverflow.com/questions/34018908/golang-why-dont-we-have-a-set-datastructure
+- 13:
+  - https://stackoverflow.com/questions/38571354/best-way-to-swap-variable-values-in-go
+  - https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/
+- 14:
+  - https://stackoverflow.com/questions/6372474/how-to-determine-an-interface-values-real-type
+- 15:
+  - https://go.dev/blog/slices-intro
+- 16:
+  - https://stackoverflow.com/questions/15802890/idiomatic-quicksort-in-go/15803401
+  - http://algolist.ru/sort/quick_sort.php
+  - https://habr.com/en/sandbox/29775/
+- 17:
+  - https://stackoverflow.com/questions/43073681/golang-binary-search
+- 18:
+  - https://stackoverflow.com/questions/16783273/best-way-to-implement-global-counters-for-highly-concurrent-applications
+- 19:
+  - https://stackoverflow.com/questions/1752414/how-to-reverse-a-string-in-go
+- 20:
+  - https://kodify.net/go/reverse-string/#option-2-reverse-a-go-string-word-by-word
+Часы:
+- 02.12 - 5 часов
+- 03.12 - 5 часов
+- 04.12 - 6 часов
+- 05.12 - 4 часа (1)
