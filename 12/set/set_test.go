@@ -1,4 +1,4 @@
-package main
+package set
 
 import (
 	"testing"
@@ -42,4 +42,13 @@ func TestSetHas(t *testing.T) {
 
 	assert.True(t, set.Has("test"))
 	assert.False(t, set.Has("test1"))
+}
+
+func TestSize(t *testing.T) {
+	set := NewSet()
+
+	set.Add("test")
+	set.Add("test1")
+
+	assert.Equal(t, set.Size(), 2)
 }

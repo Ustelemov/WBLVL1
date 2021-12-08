@@ -19,6 +19,12 @@
 - [X] 18
 - [X] 19
 - [X] 20
+- [X] 21
+- [X] 22
+- [X] 23
+- [X] 24
+- [X] 25
+- [X] 26
 
 # Источники
 - 1: 
@@ -69,8 +75,13 @@
   - https://stackoverflow.com/questions/1752414/how-to-reverse-a-string-in-go
 - 20:
   - https://kodify.net/go/reverse-string/#option-2-reverse-a-go-string-word-by-word
-Часы:
-- 02.12 - 5 часов
-- 03.12 - 5 часов
-- 04.12 - 6 часов
-- 05.12 - 4 часа (1)
+- 21:
+  - https://faun.pub/head-first-design-patterns-using-go-6-being-adaptive-the-adapter-and-facade-patterns-c6361a602c3a
+- 22:
+  - https://medium.com/orbs-network/big-integers-in-go-14534d0e490d
+- 23:
+  - https://stackoverflow.com/questions/37334119/how-to-delete-an-element-from-a-slice-in-golang
+- 25:
+  - https://stackoverflow.com/questions/31942163/how-to-write-my-own-sleep-function-using-just-time-after
+- 26:
+  - https://stackoverflow.com/questions/10411538/how-do-i-convert-a-string-to-a-lower-case-representation
