@@ -1,6 +1,7 @@
 package main
 
 import (
+	"reflect"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -10,17 +11,17 @@ func TestGetPowChan(t *testing.T) {
 
 	testTable := []struct {
 		name           string
-		inputArr       [5]int
-		expectedResult [5]int
+		inputArr       []int
+		expectedResult []int
 	}{
 		{
 			name:           "Not nulls",
-			inputArr:       [5]int{1, 2, 3, 4, 5},
-			expectedResult: [5]int{1, 4, 9, 16, 25},
+			inputArr:       []int{1, 2, 3, 4, 5},
+			expectedResult: []int{1, 4, 9, 16, 25},
 		},
 		{
 			name:           "Nulls",
-			expectedResult: [5]int{0, 0, 0, 0, 0},
+			expectedResult: []int{},
 		},
 	}
 
@@ -28,7 +29,7 @@ func TestGetPowChan(t *testing.T) {
 		t.Run(v.name, func(t *testing.T) {
 
 			channel := make(chan int)
-			var result [5]int
+			result := make([]int, len(v.inputArr))
 
 			go getPowChan(channel, v.inputArr)
 			index := 0
@@ -37,7 +38,7 @@ func TestGetPowChan(t *testing.T) {
 				index = index + 1
 			}
 
-			assert.Equal(t, v.expectedResult, result)
+			assert.True(t, reflect.DeepEqual(v.expectedResult, result))
 
 		})
 	}
@@ -47,24 +48,24 @@ func TestGetPoWWG(t *testing.T) {
 
 	testTable := []struct {
 		name           string
-		inputArr       [5]int
+		inputArr       []int
 		expectedResult []int
 	}{
 		{
 			name:           "Not nulls",
-			inputArr:       [5]int{1, 2, 3, 4, 5},
+			inputArr:       []int{1, 2, 3, 4, 5},
 			expectedResult: []int{1, 4, 9, 16, 25},
 		},
 		{
 			name:           "Nulls",
-			expectedResult: []int{0, 0, 0, 0, 0},
+			expectedResult: []int{},
 		},
 	}
 
 	for _, v := range testTable {
 		t.Run(v.name, func(t *testing.T) {
 			result := getPowWG(v.inputArr)
-			assert.Equal(t, v.expectedResult, result)
+			assert.True(t, reflect.DeepEqual(v.expectedResult, result))
 		})
 	}
 }
